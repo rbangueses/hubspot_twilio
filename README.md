@@ -2,9 +2,10 @@
 A sample integration of Flex with Hubspot running inside it as an Iframe. 
 
 It uses the following components:
-1- a Twilio function that invokes a Hubspot API to fetch a customer record, and returns firstname, lastname and crmid. Can be extended to return more information such as email address or any information returned by Hubspot API.
-2- a Studio flow that invokes the function mentioned above and passes the results to flex
-3- a Flex plugin that embeds Hubspot within Flex as an Iframe. It will present the contacts page during inactivity or if the caller is not identified or will screen pop the customer record if it is identified using the phone number.
+
+1. a Twilio function that invokes a Hubspot API to fetch a customer record, and returns firstname, lastname and crmid. Can be extended to return more information such as email address or any information returned by Hubspot API.
+2. a Studio flow that invokes the function mentioned above and passes the results to flex
+3. a Flex plugin that embeds Hubspot within Flex as an Iframe. It will present the contacts page during inactivity or if the caller is not identified or will screen pop the customer record if it is identified using the phone number.
 
 Example when it identifies the caller:
 
