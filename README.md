@@ -6,6 +6,11 @@ It uses the following components:
 2- a Studio flow that invokes the function mentioned above and passes the results to flex
 3- a Flex plugin that embeds Hubspot within Flex as an Iframe. It will present the contacts page during inactivity or if the caller is not identified or will screen pop the customer record if it is identified using the phone number.
 
+NOTE:
+These repository includes 2 plugins:
+1- plugin-hubspot is for Flex UI v2
+2- plugin-hubspot-flex1 is for flex UI v1
+
 Example when it identifies the caller:
 
 ![Screenshot 2022-08-05 at 16 42 54](https://user-images.githubusercontent.com/98812531/183442049-b0feaad6-4125-402d-85c6-29100684a83a.png)
