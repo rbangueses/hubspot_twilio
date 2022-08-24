@@ -9,8 +9,8 @@ It uses the following components:
 
 NOTE:
 These repository includes 2 plugins:
-1- plugin-hubspot is for Flex UI v2
-2- plugin-hubspot-flex1 is for flex UI v1
+1. plugin-hubspot is for Flex UI v2
+2. plugin-hubspot-flex1 is for flex UI v1
 
 Example when it identifies the caller:
 
