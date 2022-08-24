@@ -7,6 +7,10 @@ exports.handler=function(context, event, callback) {
   const axios = require('axios');
   let result = {};
   let from = event.from;
+  
+  //if the string from contains a whatsapp prefix we need to remove it
+  from = from.replace('whatsapp:','');
+
   const url='https://api.hubapi.com/contacts/v1/search/query?q='+ from;
   axios({
       method: 'get',
