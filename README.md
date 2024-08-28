@@ -1,5 +1,5 @@
 # hubspot_twilio
-A sample integration of Flex with Hubspot running inside it as an Iframe. 
+A sample integration of Flex with Hubspot running inside it as an Iframe. Note this is a proof of concept, you may need to make changes to use this in production.
 
 It uses the following components:
 
